@@ -1,0 +1,142 @@
+[
+    {
+        "metodo_pago": "Efectivo",
+        "dia_semana": "Domingo",
+        "unidades": 1161627
+    },
+    {
+        "metodo_pago": "Efectivo",
+        "dia_semana": "Jueves",
+        "unidades": 1156127
+    },
+    {
+        "metodo_pago": "Efectivo",
+        "dia_semana": "Lunes",
+        "unidades": 1156950
+    },
+    {
+        "metodo_pago": "Efectivo",
+        "dia_semana": "Martes",
+        "unidades": 1156933
+    },
+    {
+        "metodo_pago": "Efectivo",
+        "dia_semana": "Miercoles",
+        "unidades": 1179914
+    },
+    {
+        "metodo_pago": "Efectivo",
+        "dia_semana": "Sabado",
+        "unidades": 1158454
+    },
+    {
+        "metodo_pago": "Efectivo",
+        "dia_semana": "Viernes",
+        "unidades": 1154568
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Domingo",
+        "unidades": 1154272
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Jueves",
+        "unidades": 1163819
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Lunes",
+        "unidades": 1159505
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Martes",
+        "unidades": 1157792
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Miercoles",
+        "unidades": 1187761
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Sabado",
+        "unidades": 1155083
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Viernes",
+        "unidades": 1155866
+    },
+    {
+        "metodo_pago": "Transferencia",
+        "dia_semana": "Domingo",
+        "unidades": 1159163
+    },
+    {
+        "metodo_pago": "Transferencia",
+        "dia_semana": "Jueves",
+        "unidades": 1159121
+    },
+    {
+        "metodo_pago": "Transferencia",
+        "dia_semana": "Lunes",
+        "unidades": 1163560
+    },
+    {
+        "metodo_pago": "Transferencia",
+        "dia_semana": "Martes",
+        "unidades": 1153073
+    },
+    {
+        "metodo_pago": "Transferencia",
+        "dia_semana": "Miercoles",
+        "unidades": 1183001
+    },
+    {
+        "metodo_pago": "Transferencia",
+        "dia_semana": "Sabado",
+        "unidades": 1154752
+    },
+    {
+        "metodo_pago": "Transferencia",
+        "dia_semana": "Viernes",
+        "unidades": 1158870
+    },
+    {
+        "metodo_pago": "Vales",
+        "dia_semana": "Domingo",
+        "unidades": 1155811
+    },
+    {
+        "metodo_pago": "Vales",
+        "dia_semana": "Jueves",
+        "unidades": 1154735
+    },
+    {
+        "metodo_pago": "Vales",
+        "dia_semana": "Lunes",
+        "unidades": 1161673
+    },
+    {
+        "metodo_pago": "Vales",
+        "dia_semana": "Martes",
+        "unidades": 1158693
+    },
+    {
+        "metodo_pago": "Vales",
+        "dia_semana": "Miercoles",
+        "unidades": 1176938
+    },
+    {
+        "metodo_pago": "Vales",
+        "dia_semana": "Sabado",
+        "unidades": 1156935
+    },
+    {
+        "metodo_pago": "Vales",
+        "dia_semana": "Viernes",
+        "unidades": 1150508
+    }
+]

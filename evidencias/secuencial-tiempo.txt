@@ -1,0 +1,4 @@
+
+Tiempo secuencial: 18,348 segundos
+CPU usuario: 18,274 segundos
+CPU sistema: 0,071 segundos

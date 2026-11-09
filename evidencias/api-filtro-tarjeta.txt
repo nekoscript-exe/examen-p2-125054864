@@ -1,0 +1,37 @@
+[
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Domingo",
+        "unidades": 1154272
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Jueves",
+        "unidades": 1163819
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Lunes",
+        "unidades": 1159505
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Martes",
+        "unidades": 1157792
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Miercoles",
+        "unidades": 1187761
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Sabado",
+        "unidades": 1155083
+    },
+    {
+        "metodo_pago": "Tarjeta",
+        "dia_semana": "Viernes",
+        "unidades": 1155866
+    }
+]

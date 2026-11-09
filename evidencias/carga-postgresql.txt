@@ -1,0 +1,3 @@
+Registros leidos de Hadoop: 28
+Registros almacenados en PostgreSQL: 28
+Carga finalizada correctamente

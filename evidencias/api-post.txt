@@ -1,0 +1,1 @@
+{"mensaje":"Resultado guardado","resultado":{"metodo_pago":"Tarjeta","dia_semana":"Miercoles","unidades":1187761}}

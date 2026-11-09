@@ -8,6 +8,7 @@ services:
     container_name: examen-hadoop
     volumes:
       - ./datos:/data/input:ro
+      - ./mapreduce:/app/mapreduce:ro
       - hadoop_output:/data/output
       - ssh_keys:/root/.ssh
     networks:
