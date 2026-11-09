@@ -1,0 +1,70 @@
+
+services:
+  hadoop:
+    build:
+      context: ./hadoop
+      dockerfile: Dockerfile
+    image: examen-hadoop:3.3.6
+    container_name: examen-hadoop
+    volumes:
+      - ./datos:/data/input:ro
+      - hadoop_output:/data/output
+      - ssh_keys:/root/.ssh
+    networks:
+      - datamart_net
+    restart: unless-stopped
+
+  db:
+    image: postgres:16-alpine
+    container_name: examen-db
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - datamart_net
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: examen-api
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - hadoop_output:/data/output:ro
+      - ./scripts:/app/scripts:ro
+      - ssh_keys:/root/.ssh:ro
+    depends_on:
+      db:
+        condition: service_healthy
+      hadoop:
+        condition: service_started
+    networks:
+      - datamart_net
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  hadoop_output:
+  ssh_keys:
+
+networks:
+  datamart_net:
+    driver: bridge

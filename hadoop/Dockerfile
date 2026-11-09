@@ -37,4 +37,8 @@ WORKDIR /opt/hadoop
 
 EXPOSE 22
 
-CMD ["/usr/sbin/sshd", "-D", "-e"]
+COPY iniciar.sh /usr/local/bin/iniciar.sh
+
+RUN chmod +x /usr/local/bin/iniciar.sh
+
+CMD ["/bin/sh", "/usr/local/bin/iniciar.sh"]

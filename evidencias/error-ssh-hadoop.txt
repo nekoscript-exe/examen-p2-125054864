@@ -1,0 +1,13 @@
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
+examen-hadoop  | exec /usr/local/bin/iniciar.sh: exec format error
