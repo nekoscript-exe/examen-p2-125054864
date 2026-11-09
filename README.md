@@ -76,7 +76,7 @@ Tener instalados Docker Engine, Docker Compose, Python 3 y Git.
 ### Paso 1. Clonar el repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/nekoscript-exe/examen-p2-125054864.git
 cd examen-p2-125054864
 ```
 
@@ -235,6 +235,24 @@ La carpeta `evidencias/` contiene los registros de verificación del proyecto.
 | `api-filtro-tarjeta.txt` | Consulta filtrada |
 | `api-post.txt` | Prueba de escritura |
 | `persistencia-validacion.txt` | Persistencia confirmada |
+
+### Capturas de ejecución
+
+**Hadoop 3.3.6**
+
+![Hadoop 3.3.6](evidencias/capturas/01-hadoop.png)
+
+**SSH sin contraseña**
+
+![SSH sin contraseña](evidencias/capturas/02-ssh.png)
+
+**Resultados de MapReduce**
+
+![Resultados de MapReduce](evidencias/capturas/03-mapreduce.png)
+
+**Respuesta de FastAPI**
+
+![Respuesta de FastAPI](evidencias/capturas/04-api.png)
 
 ## 9. Respuestas teóricas
 
