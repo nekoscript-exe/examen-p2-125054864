@@ -236,6 +236,16 @@ La carpeta `evidencias/` contiene los registros de verificación del proyecto.
 | `api-post.txt` | Prueba de escritura |
 | `persistencia-validacion.txt` | Persistencia confirmada |
 
+## Verificación de reproducibilidad
+
+Se realizó una prueba utilizando un clon nuevo del repositorio público de GitHub, con volúmenes Docker independientes y una nueva configuración de PostgreSQL.
+
+Se regeneró el dataset con la matrícula 125054864, obteniendo 5,000,000 de registros. Los tres servicios se iniciaron correctamente mediante Docker Compose.
+
+Hadoop Streaming completó exitosamente el procesamiento de los registros y produjo 28 agrupaciones. Posteriormente se cargaron los resultados en PostgreSQL y se consultaron mediante FastAPI, obteniendo los mismos valores que en el proyecto original.
+
+La prueba confirmó la reproducibilidad funcional del pipeline siguiendo las instrucciones del README. La reconstrucción de imágenes aprovechó la caché local de Docker.
+
 ### Capturas de ejecución
 
 **Hadoop 3.3.6**
